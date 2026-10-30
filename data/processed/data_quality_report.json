@@ -1,0 +1,25 @@
+{
+  "dataset_id": "mukulb/clustered_MEDQUAD_dataset_with_groups",
+  "total_records_loaded": 16407,
+  "total_records_written": 16407,
+  "total_records_dropped": 0,
+  "drop_reasons": {
+    "empty_question": 0,
+    "empty_answer": 0,
+    "parse_error": 0
+  },
+  "source_distribution": {
+    "3_GHR_QA": 5430,
+    "2_GARD_QA": 5389,
+    "5_NIDDK_QA": 1192,
+    "6_NINDS_QA": 1088,
+    "4_MPlus_Health_Topics_QA": 981,
+    "7_SeniorHealth_QA": 769,
+    "1_CancerGov_QA": 729,
+    "8_NHLBI_QA_XML": 559,
+    "9_CDC_QA": 270
+  },
+  "avg_question_length_chars": 50.7,
+  "avg_answer_length_chars": 1261.0,
+  "generated_at": "2026-10-09T05:33:25.720302+00:00"
+}

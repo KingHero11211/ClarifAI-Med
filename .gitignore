@@ -1,0 +1,55 @@
+# Environment
+.env
+*.env
+venv/
+.venv/
+env/
+ENV/
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+
+# Data (large / regenerable files)
+data/raw/
+data/processed/*.jsonl
+*.xml
+*.zip
+*.tar.gz
+
+# Models / embeddings cache
+*.bin
+*.safetensors
+chroma_db/
+vector_store/
+
+# Editor
+.vscode/
+.idea/
+*.swpx
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Build artifacts
+dist/
+build/
+*.egg-info/
+
+# Logs
+logs/
+*.log
+
+# Test artifacts
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Results (large output files)
+evaluation/results/*.png
+evaluation/results/*.csv

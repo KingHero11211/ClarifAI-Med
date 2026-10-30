@@ -1,0 +1,17 @@
+[project]
+name = "clarifai-med"
+version = "0.1.0"
+description = "Self-checking medical RAG prototype with NLI-based claim verification"
+requires-python = ">=3.11"
+readme = "README.md"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+python_classes = ["Test*"]
+python_functions = ["test_*"]
+addopts = "-v --tb=short"
+
+[tool.coverage.run]
+source = ["src"]
+omit = ["*/tests/*", "*/venv/*"]
